@@ -4,9 +4,9 @@
 
 [![Travis Status](https://img.shields.io/travis/swaggo/swag/master.svg)](https://travis-ci.org/swaggo/swag)
 [![Coverage Status](https://img.shields.io/codecov/c/github/swaggo/swag/master.svg)](https://codecov.io/gh/swaggo/swag)
- [![Go Report Card](https://goreportcard.com/badge/github.com/swaggo/swag)](https://goreportcard.com/badge/github.com/swaggo/swag)
+ [![Go Report Card](https://goreportcard.com/badge/github.com/mxyue/swag)](https://goreportcard.com/badge/github.com/mxyue/swag)
 [![codebeat badge](https://codebeat.co/badges/71e2f5e5-9e6b-405d-baf9-7cc8b5037330)](https://codebeat.co/projects/github-com-swaggo-swag-master)
-[![Go Doc](https://godoc.org/github.com/swaggo/swagg?status.svg)](https://godoc.org/github.com/swaggo/swag)
+[![Go Doc](https://godoc.org/github.com/mxyue/swagg?status.svg)](https://godoc.org/github.com/mxyue/swag)
 
 Swag converts Go annotations to Swagger Documentation 2.0. We've created a variety of plugins for popular [Go web frameworks](#supported-web-frameworks). This allows you to quickly integrate with an existing Go project (using Swagger UI).
 
@@ -39,7 +39,7 @@ Swag converts Go annotations to Swagger Documentation 2.0. We've created a varie
 ```sh
 $ go get -u github.com/mxyue/swag/cmd/swag
 ```
-Or download the pre-compiled binaries binray form [release page](https://github.com/swaggo/swag/releases).
+Or download the pre-compiled binaries binray form [release page](https://github.com/mxyue/swag/releases).
 
 3. Run `swag init` in the project's root folder which contains the `main.go` file. This will parse your comments and generate the required files (`docs` folder and `docs/docs.go`).
 ```sh
@@ -77,7 +77,7 @@ OPTIONS:
 
 ## How to use it with Gin
 
-Find the example source code [here](https://github.com/swaggo/swag/tree/master/example/celler).
+Find the example source code [here](https://github.com/mxyue/swag/tree/master/example/celler).
 
 1. After using `swag init` to generate Swagger 2.0 docs, import the following packages:
 ```go
@@ -205,8 +205,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/swaggo/swag/example/celler/httputil"
-	"github.com/swaggo/swag/example/celler/model"
+	"github.com/mxyue/swag/example/celler/httputil"
+	"github.com/mxyue/swag/example/celler/model"
 )
 
 // ShowAccount godoc
@@ -295,7 +295,7 @@ $ swag init
 ## General API Info
 
 **Example**
-[celler/main.go](https://github.com/swaggo/swag/blob/master/example/celler/main.go)
+[celler/main.go](https://github.com/mxyue/swag/blob/master/example/celler/main.go)
 
 | annotation  | description                                | example                         |
 |-------------|--------------------------------------------|---------------------------------|
@@ -318,7 +318,7 @@ $ swag init
 ## API Operation
 
 **Example**
-[celler/controller](https://github.com/swaggo/swag/tree/master/example/celler/controller)
+[celler/controller](https://github.com/mxyue/swag/tree/master/example/celler/controller)
 
 
 | annotation         | description                                                                                                                |

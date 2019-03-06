@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/ghodss/yaml"
+	"github.com/mxyue/swag"
 	"github.com/pkg/errors"
-	"github.com/swaggo/swag"
 )
 
 // Gen presents a generate tool for swag.
@@ -95,7 +95,7 @@ import (
 	"bytes"
 
 	"github.com/alecthomas/template"
-	"github.com/swaggo/swag"
+	"github.com/mxyue/swag"
 )
 
 var doc = {{.Doc}}

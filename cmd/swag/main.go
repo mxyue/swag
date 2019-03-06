@@ -4,9 +4,9 @@ import (
 	"log"
 	"os"
 
+	"github.com/mxyue/swag"
+	"github.com/mxyue/swag/gen"
 	"github.com/pkg/errors"
-	"github.com/swaggo/swag"
-	"github.com/swaggo/swag/gen"
 	"github.com/urfave/cli"
 )
 
