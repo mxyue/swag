@@ -14,6 +14,7 @@ require (
 	github.com/swaggo/gin-swagger v1.0.0
 	github.com/ugorji/go/codec v0.0.0-20181209151446-772ced7fd4c2 // indirect
 	github.com/urfave/cli v1.20.0
+	golang.org/x/net v0.0.0-20190301231341-16b79f2e4e95 // indirect
 	golang.org/x/tools v0.0.0-20190114222345-bf090417da8b
 	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
 )

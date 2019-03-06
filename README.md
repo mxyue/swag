@@ -37,7 +37,7 @@ Swag converts Go annotations to Swagger Documentation 2.0. We've created a varie
 
 2. Download swag by using:
 ```sh
-$ go get -u github.com/swaggo/swag/cmd/swag
+$ go get -u github.com/mxyue/swag/cmd/swag
 ```
 Or download the pre-compiled binaries binray form [release page](https://github.com/swaggo/swag/releases).
 
